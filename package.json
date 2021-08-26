@@ -1,11 +1,13 @@
 {
   "name": "flutter-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },"keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -14,6 +16,16 @@
   },
   "engines": {
     "node": "14.16.0",
-    "npm":"6.14.11"
-  }
+    "npm": "6.14.11"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanajan2562/heroku-smy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kanajan2562/heroku-smy/issues"
+  },
+  "homepage": "https://github.com/kanajan2562/heroku-smy#readme",
+  "description": ""
 }
